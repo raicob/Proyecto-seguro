@@ -7,3 +7,4 @@ Adicional se agregó para PUNTOS EXTRA:
 Formulario HTML, y para realizar cálculo un botón que genera la cotización con los datos del cliente y descripción de los cargos.
 Se agregaron botones con etiqueta select para mostrar una lista de "si" o "no"
 Se agregó un archivo CSS para darle estilo y color a la fuente.
+En javascript se programó para que la edad fuera válida de acuerdo a la información dada en las instrucciones.
