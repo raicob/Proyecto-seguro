@@ -1,0 +1,15 @@
+.p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(76, 114, 238);
+    height: 10px;
+    width: 300px;
+}
+
+.p2{
+    font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(245, 94, 68);
+    height: 30px;
+    width: 600px;
+}

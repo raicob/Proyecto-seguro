@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type= "text/css" href ="DisenoTarifa.css">
+    <title>Seguros TK-U</title>
+    
+    </head>
+<body>
+    <script type="text/javascript" src = "tarifa.js"></script>
+    <h1><p class="p2">COTIZACIÓN SEGURO</p></h1>
+    <div><p class="p1">Ingrese nombres y apellidos</p></div>
+    <input type="Text" placeholder="Nombres y Apellidos" id="name" name="name" size="50" ><br>
+    <div><p class="p1">Ingrese fecha de nacimiento</p></div>
+    <input type="number" id="dia" placeholder="Día" min="1" max="31">
+    <input type="number" id="mes" placeholder="Mes" min="1" max="12">
+    <input type="number" id="anio" placeholder="Año" min="1" max="12"><br>
+    
+    <label><p class="p1">¿Tiene conyuge?</p></label>
+         <select id="conyuge">
+            <option value="SI">SI</option>
+            <option value="NO">NO</option>
+         </select>
+    <br>
+    <label><p class="p1">Ingrese edad del conyuge</p></label>
+    <input type="number" placeholder="Edad" id="edadC" placeholder="edadC" min="1" max="70"><br>     
+    
+    <label><p class="p1">¿Tiene hijos?</p></label>
+         <select id="hijos">
+            <option value="SI">SI</option>
+            <option value="NO">NO</option>
+         </select><br>
+    <label><p class="p1">Ingrese cantidad de hijos</p></label>
+    <input type="number" placeholder="Menores de 21 años" id="cantidad" placeholder="Ingrese cantidad" ><br> <br>
+    
+    
+    <button id="btn1" name="btn1" class="btn1"  onclick="HacerClick()">CALCULAR TARIFA</button><br><br>
+         
+</body>
+</html>
